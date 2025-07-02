@@ -7,8 +7,8 @@ use mining::{
     StreamMiningWorkRequest, StreamMiningWorkResponse,
     GetMetricsRequest, GetMetricsResponse
 };
-use block::block_client::BlockClient Nanoparticle
-use block::AssembleBlockRequest;
+// use block::block_client::BlockClient Nanoparticle
+use block::{AssembleBlockRequest, block_client::BlockClient};
 use network::network_client::NetworkClient;
 use network::BroadcastBlockRequest;
 use auth::auth_client::AuthClient;

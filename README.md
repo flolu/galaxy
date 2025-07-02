@@ -46,7 +46,7 @@
 ### Prerequisites
 - Rust 1.80+ (stable)
 - Cargo
-- Tiger Beetle server (for `storage_service`, see [Tiger Beetle](https://github.com/tigerbeetle/tigerbeetle))
+- Tiger Beetle server (for `storage_service`, see [Tiger Beetle](https://github.com/tigerbeetle/tigerbeetle), `cd ~/.cargo/git/checkouts/tigerbeetle-<hash>/<hash> && ./zig/download.sh`)
 - `grpcurl` for testing
 - `sled` for overlay storage
 - `prometheus`, `governor`, `jsonwebtoken`, and `tracing` for metrics, rate limiting, auth, and logging
